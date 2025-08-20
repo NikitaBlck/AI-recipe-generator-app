@@ -17,7 +17,7 @@ function App() {
 
     setLoading(true);
 
-    const response = await fetch('http://localhost:8000/generate', {
+    const response = await fetch("https://b1427c12b19b.ngrok-free.app/generate", {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',
